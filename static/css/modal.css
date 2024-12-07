@@ -1,0 +1,77 @@
+body
+{
+    padding:25px;
+/*    background:url(/media/style/images/turquoise2.jpg) #fdfdfd no-repeat center;*/
+/*    opacity:0.75;*/
+    background:transparent;
+}
+#page
+{
+    text-shadow:0 5px 5px #333333;
+    background:url(/static/images/modal_tile.png);
+    -moz-box-shadow:0 5px 5px #333333;
+    -webkit-box-shadow:0 5px 5px #333333;
+    box-shadow:0 5px 5px #333333;    
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    border-radius:10px;
+    padding:10px;
+}
+
+#contact h3
+{
+    font-size:2.2em;
+    color:#fdfdfd;
+    text-shadow:0 2px 2px #1bb;
+}
+
+th {
+    vertical-align:top;
+}
+
+label,p  {
+    font-size:1.5em;
+    color:#fdfdfd;
+    text-shadow:0 2px 2px #1bb;
+}
+
+ul {
+    list-style:none;
+}
+li {
+    font-size:1.5em;
+    color:#ee1;
+    text-shadow:0 5px 5px #333333;
+}
+
+textarea, li, label, #contact h3, p{
+    letter-spacing: 0.115em;
+    word-spacing: -0.096em;
+    font-family: 'Neucha', serif;
+    
+}
+
+textarea, select, input {
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius:5px;
+/*    letter-spacing: 0.115em;
+    word-spacing: -0.096em;
+    font-family: 'Neucha', serif;*/
+    background-color:#cdcdcd;
+    text-shadow:0 3px 3px #333333;
+}
+p, h3 
+{
+    text-align:center;
+}
+
+#okbutton {
+    font-size:1.5em;
+    margin-left:250px;
+    padding:5px;
+
+}
+/*#TB_window {
+    background:transparent;
+}*/

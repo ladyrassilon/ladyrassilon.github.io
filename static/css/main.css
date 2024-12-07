@@ -1,0 +1,119 @@
+*{
+	/* Universal reset: */
+	margin:0;
+	padding:0;
+}
+
+header,footer,
+article,section,
+hgroup,nav,
+figure{
+	/* Giving a display value to the HTML5 rendered elements: */
+	display:block;
+}
+
+body 
+{
+	background:url(/static/images/turquoise2.jpg) #fdfdfd no-repeat center top;
+    font-family: 'Lobster', serif;
+}
+
+h1 {
+    font-size:6em;
+}
+
+h2 {
+    font-size:2em;
+}
+
+h3 {
+    font-size:1.5em;
+    float:left;
+}
+
+header {
+    color:#fff;
+    margin-top:25px;
+    margin-right:auto;
+    margin-left:auto;  
+    padding:20px;
+    margin-bottom:15px;
+    text-align:center;
+}
+
+nav {
+    font-size:1.2em;
+    color:white;
+    float:right;
+    background:url(/static/images/tile2.png);
+    -moz-box-shadow:0 5px 5px #333333;
+    -webkit-box-shadow:0 5px 5px #333333;
+    box-shadow:0 5px 5px #333333;    
+    
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    border-radius:10px;
+    padding:20px;
+}
+
+nav ul {
+    list-style:none;
+}
+
+nav ul li {
+    padding-bottom:0.75em;
+}
+
+#page
+{
+    text-shadow:0 5px 5px #333333;
+	width:960px;
+	margin:0 auto;
+    position:relative;
+    background:url(/static/images/transparenttile.png);
+
+}
+
+a 
+{
+    color:#ee1;
+    text-decoration:none;
+    text-shadow:0 5px 5px #333333;
+}
+
+#content
+{
+    margin:15px auto;
+    width:700px;
+    color:#fff;
+    padding:15px;
+    background:url(/static/images/tile2.png);
+    -moz-box-shadow:0 5px 5px #333333;
+    -webkit-box-shadow:0 5px 5px #333333;
+    box-shadow:0 5px 5px #333333;    
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    border-radius:10px;
+    font-size:1.2em;
+}
+
+#content p
+{
+    font-family: 'Neucha', serif;
+    letter-spacing: 0.115em;
+    word-spacing: -0.096em;
+}
+
+footer
+{
+    text-align:center;
+    color:#fff;
+    margin-top:25px;
+    margin-right:auto;
+    margin-left:auto;   
+}
+
+footer p
+{
+    font-size:2.4em
+}
